@@ -1,0 +1,104 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+/*Стили шапки*/
+header{
+    background-color: #6f8a97;
+    height: 15vh;
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    font-family: cursive;
+}
+header div{
+    margin: 20px 10px;
+}
+header img{
+    height: 50px;
+    width: 50px;
+}
+/*Стили подвала*/
+footer{
+    /* Чтобы footer не уменьшался */
+    flex-shrink: 0;
+    background-color: #6f8a97;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px;
+    font-size: 22px;
+    font-family: cursive;
+}
+/*Стили блока с сообщениями*/
+.ContentBlog{
+    min-width: 100vh;
+    min-height: 70vh;
+    background-color: #304b59;
+    height: 70px;
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    font-family: cursive;
+    overflow-y: scroll;
+}
+.ContentBlog div
+    {
+        min-width: 100vh;
+        min-height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+    }
+
+/*Стили для формы отправки*/
+.SendMessageForm{
+    min-width: 25vh;
+    min-height: 25vh;
+    background-color: #ffffff;
+    height: 70px;
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    font-family: cursive;
+}
+.SendMessageForm div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.SendMessageForm input{
+    margin: 5px;
+    min-width: 200px;
+}
